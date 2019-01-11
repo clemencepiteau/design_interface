@@ -289,7 +289,15 @@ footer {
 #anim-robot {
   font-size: 4em;
   margin-top: 30px;
-  animation: bounce 1s linear infinite;
+  animation: shake 1s linear infinite;
+}
+
+#anim-robot::before {
+  content: "🤖";
+  cursor: pointer;
+}
+#anim-robot:hover::before {
+  content: "🤠";
 }
 
 /* ---------------------- PAGE 3 ----------------------*/
