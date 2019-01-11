@@ -155,7 +155,9 @@ a {
 }
 
 #anim {
-  animation: bounce 1s linear infinite;
+  /*animation: bounce 1s linear infinite;*/
+  animation-duration: 3s;
+  animation-name: bounce;
 }
 
 @keyframes bounce {
